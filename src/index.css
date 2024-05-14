@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Kaushan+Script&family=Satisfy&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.certificate{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 2rem;
+  position: relative;
+
+}
+.certificate img{
+  width:  80%;
+  height:90vh;
+  position: absolute;
+  top: 2rem;
+  left: 6rem;
+
+}
+.c-content{
+  
+}
+.c-content img{
+width: 12rem;
+position: absolute;
+top: 3rem;
+left: 4rem;
+}
+.c-content {
+  position: relative;
+  width: 80%;
+  height: 80vh;
+  /* border: .2rem solid orange; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 5rem 2rem;
+}
+.c-heading {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.c-heading h1{
+  color: rgb(249, 154, 119);
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.c-heading h3{
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(37, 37, 120);
+}
+.c-mid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.c-name{
+  width: 20rem;
+  border-bottom: .2rem solid rgb(40, 40, 159);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: .5rem;
+  margin-bottom: 1rem;
+}
+.c-name h4{
+  color: rgb(21, 21, 105);
+  font-family: "cardo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.c-name h1{
+  
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .c-mid p{
+    margin-top: .5rem;
+  }
+.c-bottam{
+  display: flex;
+  flex-direction: row;
+  margin-block: 2rem;
+  justify-content: space-around;
+  width: 80%;
+}
+.c-bottam .date{
+  border-top: .1rem solid blue;
+  width: 7rem;
+  text-align: center;
+}
+.c-bottam .signature{
+  border-top: .1rem solid blue;
+  width: 7rem;
+  text-align: center;
+}
+.certificate .img img{
+  height: 8rem;
+  width: 8rem;
+  position: absolute;
+  top: 5rem;
+  left: 7rem;
+}
+.certificate .img .animal img{
+  position: absolute;
+  left: 48rem;
+  height: 7rem;
+  width: 7rem;
+  top: 5.9rem;
+
+}
